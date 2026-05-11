@@ -93,6 +93,7 @@ if ($unusedResources.Count -gt 0) {
 } else {
     Write-Host "No unused resources found. Subscription is clean." -ForegroundColor Green
 }
+
 <#
 .SYNOPSIS
     Manages Azure RBAC role assignments for users and service principals.
